@@ -1,0 +1,237 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aab.medicare.SettingActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_home" />
+
+	<TextView
+        android:id="@+id/txt_vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" 
+        android:textSize="12sp"
+        android:textColor="@color/txtBiru"
+        android:text="@string/txt_profile8" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line_horiz" />
+
+    <TextView
+        android:id="@+id/txt_police_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" 
+        android:textSize="12sp"
+        android:textColor="@color/txtBiru"
+        android:text="@string/txt_profile9" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line_horiz" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txt_vehicle_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="@color/White"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+        	android:textSize="12sp"
+            android:text="@string/txt_profile10"
+            android:textColor="@color/txtBiru" />
+        
+        <include
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        layout="@layout/line_ver" />
+        
+        <ImageView
+            android:id="@+id/img_profile_vb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:padding="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/White"
+            android:src="@drawable/icon_bawah" />
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line_horiz" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txt_vehicle_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="@color/White"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/txt_profile11"
+            android:textColor="@color/txtBiru"
+            android:textSize="12sp" />
+        
+        <include
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        layout="@layout/line_ver" />
+        
+        <ImageView
+            android:id="@+id/img_profile_vt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:padding="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/White"
+            android:src="@drawable/icon_bawah" />
+    </LinearLayout>
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line_horiz" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txt_vehicle_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="@color/White"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+        	android:textSize="12sp"
+            android:text="@string/txt_profile12"
+            android:textColor="@color/txtBiru" />
+        
+        <include
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        layout="@layout/line_ver" />
+
+        <ImageView
+            android:id="@+id/img_profile_vy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:padding="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/White"
+            android:src="@drawable/icon_bawah" />
+    </LinearLayout>
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line_horiz" />
+    
+    <EditText
+        android:id="@+id/txt_engine_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" 
+        android:textColor="@color/txtBiru"
+        android:textColorHint="@color/txtBiru"
+        android:textSize="12sp"
+        android:hint="@string/txt_profile_registration2" />
+    
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line_horiz" />
+    
+    <EditText
+        android:id="@+id/txt_chassis_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" 
+        android:textColor="@color/txtBiru"
+        android:textColorHint="@color/txtBiru"
+        android:textSize="12sp"
+        android:hint="@string/txt_profile_registration3" />
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line_horiz" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txt_stnk_expired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="@color/White"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+        	android:textSize="12sp"
+            android:text="@string/txt_profile13"
+            android:textColor="@color/txtBiru" />
+
+        <ImageView
+            android:id="@+id/img_profile_birth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:padding="3dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/White"
+            android:src="@drawable/icon_calendar" />
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/line_horiz" />
+
+    <Button
+        android:id="@+id/btnNextProfile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickProfile2"
+        android:text="Next" />
+    
+</LinearLayout>

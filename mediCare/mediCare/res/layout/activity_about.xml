@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aab.medicare.AboutActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_home" 
+        android:layout_marginBottom="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:layout_marginBottom="-150dp"
+        android:src="@drawable/bg_oto3" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txtBiru"
+        android:layout_marginLeft="10dp"
+        android:text="Disclaimer"
+        android:textSize="16sp" />
+    
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:src="@color/garisAbu" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txtBiru"
+        android:layout_marginLeft="10dp"
+        android:text="This application is just a Guidance
+Call your mechanic officer or visit a workshop it having a car issues"
+        android:textSize="10sp" />
+    
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:src="@color/garisAbu" />
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txtBiru"
+        android:layout_marginLeft="10dp"
+        android:text="copyright 2014 Garda Mobile.
+All right reserved"
+        android:textSize="10sp" />
+    
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="8dp"
+        android:src="@color/garisAbu" />
+</LinearLayout>

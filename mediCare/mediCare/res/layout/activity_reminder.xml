@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aab.medicare.ReminderActivity" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_home" />
+
+    <ListView
+        android:id="@+id/lvReminder"
+        android:layout_width="match_parent"
+        android:layout_height="196dp" >
+    </ListView>
+
+    <!--  
+    <LinearLaout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:id="@+id/ll_reminder_medical_control"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickReminder"
+            android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/txtNameMedical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="left|center"
+            android:text="Medical Control"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtDescMedical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:gravity="left|center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imgDetMedical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow" />
+
+    </LinearLayout>
+    
+        <LinearLayout
+            android:id="@+id/ll_reminder_ovulation_period"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickReminder"
+            android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/txtOvulation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:gravity="left|center"
+            android:text="Ovulation Period"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/txtDescOvulation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:gravity="left|center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/imgDetOvulation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow" />
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNewReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="onClickReminder"
+            android:text="Add New Reminder" />
+    
+    </LinearLayout>
+    -->
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2011 Wglxy.com
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+    <color name="title_background">#ff355689</color>
+    <color name="title_text">#ffffffff</color>
+    <color name="title_text_alt">#ff000000</color>
+    <color name="foreground1">#ff355689</color>
+    <color name="foreground2">#ff7081a3</color>
+    <color name="background1">#ffffffff</color>
+    <color name="background2">#ffd5ddeb</color>
+    <color name="background3">#ffe3e8f1</color>
+    <color name="title_separator">#40ffffff</color>
+    <color name="White">#FFFFFF</color>
+    <color name="background_grey">#D3D3D3</color>
+    <color name="btn_grey">#A0A0A0</color>
+    <color name="text_grey">#696969</color>
+    <color name="text_darkgrey">#778899</color>
+    <color name="text_infoemail">#00FFFF</color>
+    <color name="judul">#3D8CFF</color>
+    <color name="subjudul">#9AD2FF</color>
+    <color name="body_kecil">#4D91CE</color>
+    <color name="transparent">#887081a3</color>
+    <color name="BiruTua">#5091CD</color>
+    <color name="BiruMuda">#DFF3FD</color>
+    <color name="BiruTua2">#3E629F</color>
+    <color name="hint">#CCCCCC</color>
+    
+        <!-- NEW NEW DESIGN ;) -->
+    <color name="normal">#b0b0b0</color>
+    <color name="light">#ffffff</color>
+    <color name="dark">#000000</color>
+    <color name="highlight">#FF38c0f4</color>
+
+    <!-- Background Drawable Colors -->
+    <color name="holo_pressed">#8000B6E6</color>
+    <color name="holo_focused">#4000B6E6</color>
+    <color name="holo_checked">@color/highlight</color>
+    <color name="bgBiruMuda">#daf2f8</color>
+    <color name="txtBiru">#75cede</color>
+    <color name="bgBelakang">#e7f7fd</color>
+    <color name="bgHeader">#4ac7e9</color>
+    <color name="garisAbu">#bcbec0</color>
+</resources>

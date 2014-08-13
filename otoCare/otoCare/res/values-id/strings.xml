@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Otocare</string>
+    <string name="hello_world">Hallo Dunia !</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="title_activity_home">Beranda</string>
+    <string name="title_activity_profile">Profil</string>
+    <string name="title_activity_location">Lokasi</string>
+    <string name="title_activity_knowledge">Pengetahuan</string>
+    <string name="title_activity_setting">Pengaturan</string>
+    <string name="title_activity_reminder">Pengingat</string>
+    <string name="title_activity_reminder_details">Rincian Pengingat</string>
+    <string name="title_activity_reschedule">Jadwal Ulang</string>
+    <string name="title_activity_done">Selesai</string>
+    <string name="title_activity_remind_later">Ingatkan Nanti</string>
+    <string name="title_activity_fuel_monitor">Monitor Bahan Bakar</string>
+    <string name="title_activity_service_record">Rekam Jejak Layanan</string>
+    <string name="title_activity_type_of_service">Tipe Layanan</string>
+    <string name="title_activity_add_service">Tambah Layanan</string>
+    <string name="title_activity_edit_service">Ubah Layanan</string>
+    <string name="title_activity_report">Laporan</string>
+    <string name="title_activity_report_claim">Laporan Klaim</string>
+    <string name="title_activity_profile_non_customer">Profil Bukan Member</string>
+    <string name="title_activity_add_object">Tambah Objek</string>
+    <string name="title_activity_edit_profile">Ubah Profil</string>
+    <string name="title_activity_delete_object">Hapus Objek</string>
+    <string name="title_activity_location_details">Rincian Lokasi</string>
+    <string name="title_activity_location_details_direction">Rincian Arah Lokasi</string>
+    <string name="title_activity_knowledge_details">Rincian Pengetahuan</string>
+    <string name="title_activity_about">Tentang</string>
+    <string name="title_activity_language">LanguageActivity</string>	
+	
+	<string name="txt_profile_registration1">Jika kamu pelanggan garda, tolong isi nomor mesin dan nomor casis</string>
+	<string name="txt_profile_registration2">Engine Number</string>
+	<string name="txt_profile_registration3">Chassis Number</string>
+	<string name="txt_profile_registration4">If youre not Garda Oto Customer, please check this following box</string>
+	
+	
+    <string name="mapsKey">AIzaSyAv7GlDFYEFTxGATKjsS2Ra98ccTldILIA</string>
+    <string name="mapsKeyMac">AIzaSyCH_mEhLCSOqBC8wKpO4J8yqjEo1YU4Td8</string>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aab.otocare"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/GardaOtocareTheme.NoTitle" >
+        <activity
+            android:name="com.aab.otocare.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aab.otocare.AllActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.HomeActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aab.otocare.Profile1Activity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.Profile2Activity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.Profile3Activity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.ProfileRegistrationActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.LocationActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_location" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aab.otocare.KnowledgeActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_knowledge" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aab.otocare.SettingActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_setting" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aab.otocare.ReminderActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_reminder" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.ReminderDetailsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_reminder_details" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.RescheduleActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_reschedule" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.DoneActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_done" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.RemindLaterActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_remind_later" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.FuelMonitorActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_fuel_monitor" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.ServiceRecordActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_service_record" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.TypeOfServiceActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_type_of_service" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.AddServiceActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_add_service" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.EditServiceActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_edit_service" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.ReportActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.ReportClaimActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_report_claim" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.ProfileNonCustomerActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_profile_non_customer" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.AddObjectActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_add_object" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.EditProfileActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_edit_profile" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.DeleteObjectActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_delete_object" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.LocationDetailsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_location_details" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.LocationDetailsDirectionActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_location_details_direction" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.KnowledgeDetailsActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_knowledge_details" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.AboutActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.LanguageActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_language" >
+        </activity>
+        <activity
+            android:name="com.aab.otocare.SocialMediaActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_social_media" >
+        </activity>
+
+        <!-- Goolge Maps API Key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/mapsKey" />
+
+        <activity
+            android:name="com.aab.otocare.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aab.medicare.ForgotActivity" >
+
+<!--     <LinearLayout -->
+<!--         android:id="@+id/ll_login_first" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_centerInParent="true" -->
+<!--         android:orientation="vertical" -->
+<!--         android:visibility="gone" > -->
+
+<!--         <LinearLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:orientation="vertical" > -->
+
+<!--             <EditText -->
+<!--                 android:id="@+id/txtCard" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:ems="10" -->
+<!--                 android:hint="@string/txtCard" -->
+<!--                 android:textColor="@color/BiruTua2" -->
+<!--                 android:textColorHint="@color/BiruTua2" > -->
+
+<!--                 <requestFocus /> -->
+<!--             </EditText> -->
+
+<!--             <EditText -->
+<!--                 android:id="@+id/txtBirthdate1" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:ems="10" -->
+<!--                 android:hint="@string/txtBirthdate" -->
+<!--                 android:textColor="@color/BiruTua2" -->
+<!--                 android:textColorHint="@color/BiruTua2" /> -->
+
+<!--         </LinearLayout> -->
+
+<!--         <LinearLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:orientation="horizontal" > -->
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/btnNonMember" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_weight="0.3" -->
+<!--                 android:background="@drawable/btn_non_member" -->
+<!--                 android:onClick="onClickForgot" /> -->
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/btnForgot" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_weight="0.3" -->
+<!--                 android:background="@drawable/btn_forgot_card_number" -->
+<!--                 android:onClick="onClickForgot" /> -->
+
+<!--             <ImageButton -->
+<!--                 android:id="@+id/btnSubmit" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_weight="0.3" -->
+<!--                 android:background="@drawable/btn_submit_round" -->
+<!--                 android:onClick="onClickForgot" /> -->
+
+<!--         </LinearLayout> -->
+
+<!--     </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/ll_login_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/txtCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtCompany"
+            android:textColor="@color/BiruTua2"
+            android:textColorHint="@color/BiruTua2" >
+            <requestFocus />
+        </EditText>
+        
+        <EditText
+                android:id="@+id/txtNPK"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtNPK"
+                android:textColor="@color/BiruTua2"
+                android:textColorHint="@color/BiruTua2" />
+        
+        <EditText
+                android:id="@+id/txtBirthdate2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/txtBirthdate"
+                android:textColor="@color/BiruTua2"
+                android:textColorHint="@color/BiruTua2" />
+
+        <ImageButton
+            android:id="@+id/btnSubmit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_submit_round"
+            android:onClick="onClickForgot" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_login_disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblDisclaimer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDisclaimer1"
+            android:textColor="@color/BiruTua2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblDisclaimer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblDisclaimer2" />
+    </LinearLayout>
+
+</RelativeLayout>

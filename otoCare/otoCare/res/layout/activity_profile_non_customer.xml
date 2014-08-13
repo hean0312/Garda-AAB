@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/ll_profile_non1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_engine_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:padding="@dimen/header_home"
+            android:text="@string/txt_profile1" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telephone Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Home Address" />
+
+        <EditText
+            android:id="@+id/txtBirthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="Date of birth"
+            android:inputType="none"
+            android:onClick="onClickNewMember" />
+
+        <DatePicker
+            android:id="@+id/dpResultBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/txtSIMExpired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="SIM Expired Date"
+            android:inputType="none"
+            android:onClick="onClickNewMember" />
+
+        <!-- <DatePicker -->
+        <!-- android:id="@+id/dpResultSIM" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" /> -->
+
+        <Button
+        android:id="@+id/btnNextProfile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNewMember"
+        android:text="Next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_profile_non2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+        
+        <TextView
+            android:id="@+id/txt_engine_number2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:padding="@dimen/header_home"
+            android:text="Vehicle" />
+        
+        <EditText
+            android:id="@+id/txtPN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Police Number" />
+        
+        <EditText
+            android:id="@+id/txtVB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vehicle Brand" />
+        
+        <EditText
+            android:id="@+id/txtVT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vehicle Type" />
+
+        <EditText
+            android:id="@+id/txtVY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vehicle Year" />
+        
+        <EditText
+            android:id="@+id/txtCN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Chassis Number" />
+        
+        <EditText
+            android:id="@+id/txtEN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Engine Number" />
+        
+        <EditText
+            android:id="@+id/txtSIMExpired2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="SIM Expired Date"
+            android:inputType="none"
+            android:onClick="onClickNewMember" />
+        
+        <Button
+	        android:id="@+id/btnNextProfile3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:onClick="onClickNewMember"
+	        android:text="Next" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/ll_profile_non3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+        
+        <TextView
+            android:id="@+id/txt_engine_number3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:padding="@dimen/header_home"
+            android:text="Insurance" />
+        
+        <EditText
+            android:id="@+id/txtPN3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Police Number" />
+        
+        <EditText
+            android:id="@+id/txtIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Insurance Name" />
+        
+        <EditText
+            android:id="@+id/txtPPF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="SIM Expired Date"
+            android:inputType="none"
+            android:onClick="onClickNewMember" />
+        
+        <EditText
+            android:id="@+id/txtPPT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:ems="10"
+            android:hint="SIM Expired Date"
+            android:inputType="none"
+            android:onClick="onClickNewMember" />
+        
+        <EditText
+            android:id="@+id/txtCover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Coverage" />
+        
+        <Button
+        android:id="@+id/btnSubmitAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNewMember"
+        android:text="Done" />
+        
+    </LinearLayout>  
+    
+    <RelativeLayout
+        android:id="@+id/rl_pb"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ProgressBar 
+            android:id="@+id/pd_splash_indicator" 
+		  	style="@android:style/Widget.ProgressBar.Large.Inverse" 
+		  	android:layout_height="45dp" 
+		  	android:layout_width="45dp" 
+		  	android:layout_centerHorizontal="true"
+		  	android:layout_centerVertical="true" 
+		  	android:visibility="gone" >
+        </ProgressBar>
+
+    </RelativeLayout>
+</LinearLayout>

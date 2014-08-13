@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">Medicare</string>
+    <string name="hello_world">Halo Dunia!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_all">AllActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_knowledge">KnowledgeActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_forgot">ForgotActivity</string>
+    <string name="title_activity_reminder">ReminderActivity</string>
+    <string name="title_activity_reminder_new_list">ReminderNewListActivity</string>
+    <string name="title_activity_reminder_details">ReminderDetailsActivity</string>
+    <string name="title_activity_remind_later">RemindLaterActivity</string>
+    <string name="title_activity_reschedule">RescheduleActivity</string>
+    <string name="title_activity_pregnancy_control">PregnancyControlActivity</string>
+    <string name="title_activity_ovulation_period">OvulationPeriodActivity</string>
+    <string name="title_activity_my_daily">MyDailyActivity</string>
+    <string name="title_activity_set_target">SetTargetActivity</string>
+    <string name="title_activity_set_target_details">SetTargetDetailsActivity</string>
+    <string name="title_activity_my_daily_add_categories">MyDailyAddCategoriesActivity</string>
+    <string name="title_activity_my_daily_add_cat_details">MyDailyAddCatDetailsActivity</string>
+    <string name="title_activity_medication">MedicationActivity</string>
+    <string name="title_activity_my_medication">MyMedicationActivity</string>
+    <string name="title_activity_my_simptoms">MySimptomsActivity</string>
+    <string name="title_activity_profile_customer">ProfileCustomerActivity</string>
+    <string name="title_activity_profile_non_customer">ProfileNonCustomerActivity</string>
+    <string name="title_activity_profile_details">ProfileDetailsActivity</string>	
+	
+    <string name="mapsKey">AIzaSyAv7GlDFYEFTxGATKjsS2Ra98ccTldILIA</string>
+    <string name="mapsKeyMac">AIzaSyCH_mEhLCSOqBC8wKpO4J8yqjEo1YU4Td8</string>
+</resources>

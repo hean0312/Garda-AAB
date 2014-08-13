@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Otocare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_knowledge">KnowledgeActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_reminder">ReminderActivity</string>
+    <string name="title_activity_reminder_details">ReminderDetailsActivity</string>
+    <string name="title_activity_reschedule">RescheduleActivity</string>
+    <string name="title_activity_done">DoneActivity</string>
+    <string name="title_activity_remind_later">RemindLaterActivity</string>
+    <string name="title_activity_fuel_monitor">FuelMonitorActivity</string>
+    <string name="title_activity_service_record">ServiceRecordActivity</string>
+    <string name="title_activity_type_of_service">TypeOfServiceActivity</string>
+    <string name="title_activity_add_service">AddServiceActivity</string>
+    <string name="title_activity_edit_service">EditServiceActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_report_claim">ReportClaimActivity</string>
+    <string name="title_activity_profile_non_customer">ProfileNonCustomerActivity</string>
+    <string name="title_activity_add_object">AddObjectActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_delete_object">DeleteObjectActivity</string>
+    <string name="title_activity_location_details">LocationDetailsActivity</string>
+    <string name="title_activity_location_details_direction">LocationDetailsDirectionActivity</string>
+    <string name="title_activity_knowledge_details">KnowledgeDetailsActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_language">LanguageActivity</string>	
+	
+	<string name="txt_profile_registration1">For Garda Oto Customer, please enter the engine number and chassis number</string>
+	<string name="txt_profile_registration2">Engine Number</string>
+	<string name="txt_profile_registration3">Chassis Number</string>
+	<string name="txt_profile_registration4">If youre not Garda Oto Customer, please check this following box</string>
+	
+	
+    <string name="mapsKey">AIzaSyAv7GlDFYEFTxGATKjsS2Ra98ccTldILIA</string>
+    <string name="mapsKeyMac">AIzaSyCH_mEhLCSOqBC8wKpO4J8yqjEo1YU4Td8</string>
+
+</resources>

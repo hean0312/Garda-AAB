@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Otocare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_knowledge">KnowledgeActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_reminder">ReminderActivity</string>
+    <string name="title_activity_reminder_details">ReminderDetailsActivity</string>
+    <string name="title_activity_reschedule">RescheduleActivity</string>
+    <string name="title_activity_done">DoneActivity</string>
+    <string name="title_activity_remind_later">RemindLaterActivity</string>
+    <string name="title_activity_fuel_monitor">FuelMonitorActivity</string>
+    <string name="title_activity_service_record">ServiceRecordActivity</string>
+    <string name="title_activity_type_of_service">TypeOfServiceActivity</string>
+    <string name="title_activity_add_service">AddServiceActivity</string>
+    <string name="title_activity_edit_service">EditServiceActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_report_claim">ReportClaimActivity</string>
+    <string name="title_activity_profile_non_customer">ProfileNonCustomerActivity</string>
+    <string name="title_activity_add_object">AddObjectActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_delete_object">DeleteObjectActivity</string>
+    <string name="title_activity_location_details">LocationDetailsActivity</string>
+    <string name="title_activity_location_details_direction">LocationDetailsDirectionActivity</string>
+    <string name="title_activity_knowledge_details">KnowledgeDetailsActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_language">LanguageActivity</string>
+    <string name="title_activity_social_media">SocialMediaActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_profile_registration1">For Garda Oto Customer, please enter the engine number and chassis number</string>
+    <string name="txt_profile_registration2">Engine Number</string>
+    <string name="txt_profile_registration3">Chassis Number</string>
+    <string name="txt_profile_registration4">If youre not Garda Oto Customer, please check this following box</string>
+    <string name="txt_profile1">Personal</string>
+    <string name="txt_profile2">Name</string>
+    <string name="txt_profile3">E-Mail</string>
+    <string name="txt_profile4">Telephone number</string>
+    <string name="txt_profile5">Home address</string>
+    <string name="txt_profile6">Date of birth</string>
+    <string name="txt_profile7">SIM expired date</string>
+    <string name="txt_profile8">Vehicle</string>
+    <string name="txt_profile9">Police number</string>
+    <string name="txt_profile10">Vehicle brand</string>
+    <string name="txt_profile11">Vehicle type</string>
+    <string name="txt_profile12">Vehicle year</string>
+    <string name="txt_profile13">STNK expired date</string>
+    <string name="txt_profile14">Insurance</string>
+    <string name="txt_profile15">Policy number</string>
+    <string name="txt_profile16">Insurance name</string>
+    <string name="txt_profile17">Policy period from</string>
+    <string name="txt_profile18">Policy period to</string>
+    <string name="txt_profile19">Coverage</string>
+    <string name="mapsKey">AIzaSyAv7GlDFYEFTxGATKjsS2Ra98ccTldILIA</string>
+    <string name="mapsKeyMac">AIzaSyCH_mEhLCSOqBC8wKpO4J8yqjEo1YU4Td8</string>
+    <string name="txtSwitchRegister">If you’re not Garda Oto Customer, please check this following box</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_profile_registration">ProfileRegistration</string>
+    
+    <string name="progressDialogTitle">In Progress</string>
+    <string name="progressDialogMessage">Please Wait</string>
+    <string name="txtErrorRegisterOffline">You can not perform this process while your mobile phone is offline.\nPlease try again later.</string>
+
+</resources>

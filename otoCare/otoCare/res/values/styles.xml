@@ -1,0 +1,5 @@
+<resources>
+    <style name="GardaOtocareTheme.Default" parent="@android:style/Theme.Light"></style>
+    <style name="GardaOtocareTheme.NoTitle" parent="@android:style/Theme.Light.NoTitleBar"></style>
+    <style name="GardaOtocareTheme.FullScreen" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen"></style>
+</resources>
